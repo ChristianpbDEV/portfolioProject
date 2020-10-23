@@ -1,0 +1,87 @@
+.jumbotron {
+    background-color: #121212d2;
+    margin: 0;
+    padding: 10px;
+}
+
+.red {
+    color: rgb(211, 31, 31);
+}
+
+.blue {
+    color: blue;
+}
+
+body {
+    background-image: url(/barbershopBG.jpg);
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#barbershopNavbar {
+    color: whitesmoke;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 255, 0.623);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.site-footer {
+    background-color: #121212d2;
+    padding: 55px 0;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.price-box {
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.5);
+    padding: 30px;
+    margin: 10px;  
+}
+
+.price-box ul {
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.price-box ul li {
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    padding: 15px 0;
+    font-size: 1rem;    
+}
+
+.price-box h3 {
+    font-size: 6rem;
+    margin: 15px 0;  
+}
+
+.price-box button {
+    background-image: linear-gradient( to right, hsl(236, 70%, 59%), hsl(237, 82%, 69%));
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: monospace, sans-serif;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
