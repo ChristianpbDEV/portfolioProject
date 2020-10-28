@@ -4,19 +4,16 @@
     padding: 10px;
 }
 
+#jumbotron2 {
+    margin: ;
+}
+
 .red {
     color: rgb(211, 31, 31);
 }
 
 .blue {
     color: blue;
-}
-
-body {
-    background-image: url(/barbershopBG.jpg);
-    background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
 }
 
 #barbershopNavbar {
@@ -53,7 +50,8 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0,0,0, 0.5);
     padding: 30px;
-    margin: 10px;  
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .price-box ul {
@@ -65,12 +63,15 @@ h1 {
 .price-box ul li {
     border-bottom: 1px solid hsl(234, 14%, 74%);
     padding: 15px 0;
-    font-size: 1rem;    
+    font-size: 18px; 
+    font-family: 'Montserrat', sans-serif;
+     
+    letter-spacing: 2px;
 }
 
 .price-box h3 {
     font-size: 6rem;
-    margin: 15px 0;  
+    margin: 15px 0; 
 }
 
 .price-box button {
@@ -84,4 +85,74 @@ h1 {
     margin-top: 10px;
     width: 100%;
     text-transform: uppercase;
+}
+
+.card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+.card-body button {
+    background-image: linear-gradient( to right, hsl(236, 70%, 59%), hsl(237, 82%, 69%));
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: monospace, sans-serif;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.card-title {
+    background-color: hsla(234, 53%, 88%, 0.438);
+}
+
+#bgImage {
+    background-size: cover;
+    margin: 0 auto;
+    height: 1240px;
+    z-index: -1;
+}
+
+#bgImage2 {
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+h2 {
+    color: hsl(233, 44%, 82%);
+    text-align: center;
+}
+
+#banner {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.price-box h3 {
+    color: hsl(234, 100%, 2%);
+}
+
+#info {
+    background-color: hsl(234, 14%, 74%);
+    margin: 0 auto;
+    height: 1200px;
+}
+
+#shopInfo {
+    border-bottom: 1px solid hsl(240, 29%, 97%);
+}
+
+#extraInfo {
+    background-color: hsla(233, 43%, 82%, 0.144);
 }
